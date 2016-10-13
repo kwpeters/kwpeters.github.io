@@ -1,74 +1,93 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="kwpeters.github.io : " />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>kwpeters.github.io</title>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Kwpeters.github.io : " />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Bootstrap optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/41da10be91.js"></script>
 
-    <title>Kwpeters.github.io</title>
-  </head>
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">-->
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/styles.css">
+</head>
+<body class="fill-viewport">
 
-  <body>
+    <div class="fill-parent flex-column content-area">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/kwpeters">View on GitHub</a>
+        <!-- header -->
+        <div class="flex-item-static">
+            <h1>kwpeters.github.io</h1>
+        </div>
 
-          <h1 id="project_title">Kwpeters.github.io</h1>
-          <h2 id="project_tagline"></h2>
+        <!-- body -->
+        <div class="flex-item-dynamic">
 
-        </header>
+
+            <div class="flex-row flex-align-center">
+                <div class="flex-item-static icon-container-lg">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+                <div class="flex-item-static spacer-md"></div>
+                <div class="flex-item-dynamic">
+                    My <a href="https://github.com/kwpeters">GitHub page</a>.
+                </div>
+            </div>
+
+            <div class="flex-row flex-align-center">
+                <div class="flex-item-static icon-container-lg">
+                    <i class="fa fa-git-square" aria-hidden="true"></i>
+                </div>
+                <div class="flex-item-static spacer-md"></div>
+                <div class="flex-item-dynamic">
+                    See the source for this website
+                    <a href="https://github.com/kwpeters/kwpeters.github.io">
+                        on Github
+                    </a>.
+                </div>
+            </div>
+
+
+            <div class="flex-row flex-align-center">
+                <div class="flex-item-static icon-container-lg">
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                </div>
+                <div class="flex-item-static spacer-md"></div>
+                <div class="flex-item-dynamic">
+                    Me on <a href="https://twitter.com/kevwpeters">Twitter</a>
+                    <br>
+                    <a href="https://twitter.com/kevwpeters" class="twitter-follow-button" data-show-count="false">Follow @kevwpeters</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- footer -->
+        <div class="flex-item-static">
+
+        </div>
+
+
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous">
+    </script>
 
   </body>
 </html>
